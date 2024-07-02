@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8dec64e6e9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="imagess/logo1.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Hi There,</p>
+            <h1>I'm <span>Sowjanya</span></h1>
+            <p>Front End Developer!!</p>
+            
+        </div>
+    </div>
+   </div>
+
+
+     
+    <!-- about --> 
+
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="imagess/user1.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><br>
+                <p class="info">
+                   <h4 style="display: inline;">Name:</h4><span>  Sowjanya</span><br>
+                   <h4 style="display: inline;">E-mail:</h4><span>  sowjanyalucky3@gmail.com</span><br>
+                   <h4 style="display: inline;">College:</h4><span>  NIT,AP</span><br>
+                   <h4 style="display: inline;">Branch:</h4><span>  ECE</span><br><br>
+
+                   Hi There!
+                   <br>This is Sowjanya.I am a passionate and skilled front-end developer proficient in CSS, HTML, JavaScript, Bootstrap, and Angular. With a keen eye for design and a strong commitment to creating seamless user experiences, I specialize in crafting responsive and dynamic web applications. My technical proficiency, combined with a dedication to staying updated with the latest industry trends, enables me to deliver high-quality and innovative solutions. Please feel free to reach out to discuss how I can contribute to your next project.
+
+
+
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Andriod/iOS aoos</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021</span><br>Intern at MalDsAi startup</li>
+                        <li><span>2022</span><br>Association member of ECEA</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>ECE graduate at NIT,AP</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!----------services-------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    I specialize in creating visually appealing and functional websites tailored to meet your business needs. From concept to execution, I ensure every detail enhances user end satisfaction.
+                </p>
+                <a href="#">Learn More</a> 
+            </div>
+            <div> 
+                <i class="fa-solid fa-database"></i>
+                <h2>DataBase Management</h2>
+                <p>
+                    I excel in designing and optimizing databases to efficiently store and retrieve data. Whether it's relational or non-relational databases, I ensure robust and scalable solutions that support your application's performance and data integrity.
+                 </p>
+                <a href="#">Learn More</a> 
+            </div>
+            <div> 
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>
+                    With a focus on user-centered design principles, I craft intuitive interfaces that prioritize usability and deliver seamless experiences. I emphasize user research and prototyping to refine designs that resonate with your audience.
+                </p>
+                <a href="#">Learn More</a> 
+            </div>
+        </div>
+    </div>
+   </div>
+    <!----------services-------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="imagess/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3><br>
+                        <p>This app connects you to the talented people around the world.Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imagess/work-2.png">
+                    <div class="layer">
+                        <h3>ECE ChatBot</h3><br>
+                        <p>This app connects you to the talented people around the world.Download it from play store.</p>
+                        <a href="https://github.com/memes-mami/minorp3"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imagess/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3><br>
+                        <p>This app connects you to the talented people around the world.Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="button">See more</a>  
+        </div>
+    </div>
+
+    <!------ contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+             <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sowjanyalucky3@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9346884221</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./imagess/my-cv.pdf" download class="button button2" >Download CV</a>
+             </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="button button2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; Sowjanya. <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+   
+
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+   </script>
+   <script>
+     var sidemenu=document.getElementById("sidemenu");
+
+
+     function openmenu(){
+        sidemenu.style.right = "0";
+     }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+     }
+
+
+
+   </script>
+   <script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbxlXs8I8E_eW4jh1u1HTXddT-yytuF8tuyXrhIwMv6Xr0woVKLnLo-v6__gmIttTXa5/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+
+</body>
+</html>
